@@ -52,7 +52,7 @@ with open('/Users/danny_delatorre/Desktop/python-challenge/PyPoll/election_data.
       index = candidates_list.index(candidates_csv)
       raw_vote_count[index] = raw_vote_count[index] + 1
     
-    #if candidate was not found in candidates_unique list then append to list and add 1 to vote count
+    #if candidate was not found in candidates list then append and add 1 to vote count
     else:
         candidates_list.append(candidates_csv)
         raw_vote_count.append(1)
